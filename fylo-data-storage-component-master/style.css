@@ -1,0 +1,178 @@
+body
+{
+	background-image:url("images/bg-desktop.png");
+	background-position:50% -70%;
+	background-repeat:no-repeat;
+	background-color:hsl(229, 57%, 11%);
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+}
+.total
+{
+	margin:auto;
+}
+.first,.second
+{
+	background-color:hsl(228, 56%, 26%);
+	width:270px;
+	position: fixed;
+    top: 30%;
+    padding:2rem;
+}
+.first
+{
+  left: 15vw;
+  border-radius:10px 100px 10px 10px;
+}
+.second
+{
+    left:43vw;
+	width:400px;
+	 border-radius:10px;
+	 top:36%;
+}
+.inner
+{
+	padding:10px;
+	background-color:hsl(229, 57%, 11%);
+	border-radius:7px;
+	margin:7px;
+	margin-bottom:0;
+	margin-top:30px;
+}
+.document
+{
+	padding:8.5px;
+}
+.upload
+{
+	padding:12px;
+}
+.extra
+{
+	width:30%;
+	height:30%;
+	background-color:white;
+	float:right;
+	color:hsl(229, 57%, 11%);
+	padding:.7rem;
+	margin-top:-10vh;
+	border-radius:10px;
+	font-weight:800!important;
+	text-transform:uppercase;
+}
+.one
+{
+	font-size:35px;
+}
+.slidebar
+{
+	width:100%;
+	background-color: hsl(229, 57%, 11%);
+	height:15px;
+	margin:1rem;
+	margin-left:0;
+	border-radius:10px;
+}
+.data
+{
+	background-color: white;
+	height:11px;
+	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	width:81.5%;
+	border-radius:10px;
+	border:2.5px solid hsl(229, 57%, 11%);
+}
+.hundred
+{
+	float:right;
+}
+.triangle
+{
+	float:right;
+	margin-left:10vw;
+	margin-top:-4vh;
+	float:right;
+     width: 0px;
+      height: 0px;
+      border-left: 25px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 20px solid #fff;
+}
+.circle
+{
+	background-color:white;
+	border-radius:50%;
+	width:0.5px;
+	padding:6px;
+	/*margin-left:22.7vw;*/
+	margin-left:313px;
+	margin-bottom:1.5px;
+}
+
+
+@media(max-width:1300px)
+{
+	.first,.second
+{
+	width:20%;
+}
+.first
+{
+  left: 15vw;
+}
+.second
+{
+	width:35%;
+}
+.circle
+{
+	margin-left:97%;
+}
+}
+
+@media(max-width:375px)
+{
+	body
+	{
+		background-image:url("images/bg-mobile.png");
+		background-position:0 0;
+		background-repeat:no-repeat;
+		width:100vw;
+	}
+	.first
+	{
+		display:block;
+		margin:auto;
+		width:70%;
+		top:20vh;
+		left:6vw;
+	}
+	.second
+	{
+		display:block;
+		left:6vw;
+		top:52vh;
+		width:70%;
+	}
+	.triangle
+	{
+		display:none;
+	}
+	.extra
+	{
+		float:none;
+		margin-left:3rem;
+		margin-top:4rem;
+		position:fixed;
+		height:3rem;
+		width:7rem;
+		font-size:12px;
+	}
+	.circle
+	{
+		margin-left:12rem;
+	margin-bottom:1.5px;
+	}
+}
